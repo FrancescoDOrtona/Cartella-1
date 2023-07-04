@@ -1,0 +1,65 @@
+ /* Immagine di Sfondo e Rettangolo nero trasparente */
+body{
+    background-image:url(background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin: auto;
+    padding: 100px;
+}
+.container{
+    background-color: rgb(0, 0, 0, 0.60);
+    border-radius: 15px;
+    padding: 10%;
+    margin:auto;
+    width: 70%;
+    height: 30%;
+    font-family: Helvetica;
+}
+
+/* Logo, Testo, Nav e centramento */
+.logo{
+    width: 200px;
+}
+.logotext{
+    color:rgb(0, 221, 0);
+}
+.Center{
+    text-align: center;
+}
+nav{
+    background-color: rgb(0, 221, 0) ;
+    padding: 10px;
+}
+
+/*Nomi e Info Monopattini */
+.Info-Mono{
+    color:white;
+}
+.Mono{
+    padding:15px;
+}
+div>span{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/* Barra Carica */
+#Barra1{
+    background-color:orange ;
+    padding: 15px;
+    border-radius: 5px;
+    width: 40%;
+}
+#Barra2{
+    background-color: rgb(0, 221, 0) ;
+    padding: 15px;
+    border-radius: 5px;
+    width: 70%;
+}
+#Barra3{
+    background-color:red ;
+    padding: 15px;
+    border-radius: 5px;
+    width: 15%;
+}
